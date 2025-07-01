@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local HttpService = game:GetService("HttpService")
 local player = game.Players.LocalPlayer
-local keyUrl = "https://raw.githubusercontent.com/climbandjump/script/main/keys.json"
+local keyUrl = "https://raw.githubusercontent.com/Fami-dev/test/refs/heads/main/keys.json"
 local function validateKey(inputKey)
     local success, response = pcall(function()
         return HttpService:GetAsync(keyUrl)
